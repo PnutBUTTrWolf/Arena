@@ -12,7 +12,7 @@ public class simpleProjectileBehavior : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Destroy(gameObject, 9000);
+        Destroy(gameObject, 9);
     }
 
     // Update is called once per frame
