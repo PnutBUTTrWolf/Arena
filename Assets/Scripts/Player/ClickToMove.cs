@@ -32,7 +32,7 @@ public class ClickToMove : MonoBehaviour {
 				navMeshAgent.Resume ();
 			}
 		}
-        if (Vector3.Distance(transform.position, navMeshAgent.destination) > 1f)
+        if (Vector3.Distance(transform.position, navMeshAgent.destination) > 2f)
             return;
 
         if (animator.GetBool("walking") == true)
